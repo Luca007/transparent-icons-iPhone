@@ -1,0 +1,54 @@
+<html><head>
+    <link rel="stylesheet" href="/style.css">
+    <base href="/" />
+    <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ícones Transparentes para iPhone</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>Ícones Transparentes para iPhone</h1>
+                <p>Crie ícones transparentes perfeitos para seu iPhone em poucos passos</p>
+            </div>
+        
+            <div class="model-selector">
+                <!-- <button class="model-button" data-model="iphone11">iPhone 11</button> -->
+                <button class="model-button" data-model="iphone11pro">iPhone 11 Pro</button>
+                <!-- <button class="model-button" data-model="iphone11promax">iPhone 11 Pro Max</button> -->
+            </div>
+        
+            <div class="size-selector">
+                <button class="size-button active" data-size="small">Ícones Pequenos</button>
+                <button class="size-button" data-size="large">Ícones Grandes</button>
+            </div>
+        
+            <!-- Nova seção para selecionar o número de apps no dock -->
+            <div class="dock-selector">
+                <p>Número de apps no Dock:</p>
+                <div class="dock-button-group">
+                    <button class="dock-button" data-dock-apps="1">1</button>
+                    <button class="dock-button" data-dock-apps="2">2</button>
+                    <button class="dock-button" data-dock-apps="3">3</button>
+                    <button class="dock-button active" data-dock-apps="4">4</button>
+                </div>
+            </div>
+        
+            <div class="upload-section">
+                <h2>Upload da Screenshot</h2>
+                <div class="upload-area" id="uploadArea">
+                    <p>Clique ou arraste sua screenshot aqui</p>
+                    <input type="file" id="fileInput" accept="image/*" style="display: none">
+                </div>
+            </div>
+        
+            <div class="preview-container" id="previewContainer" style="display: none; position: relative;">
+                <img id="screenPreview" class="screen-preview">
+                <div class="icon-grid" id="iconGrid"></div>
+                <div class="dock-icon-grid" id="dockIconGrid"></div>
+            </div>
+        
+            <button class="download-button" id="downloadButton">Baixar Ícones Selecionados</button>
+        </div>        
+    <script src="script.js"></script>
+    </body>
+</html>
