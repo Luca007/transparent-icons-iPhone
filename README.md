@@ -31,4 +31,4 @@ Sinta-se à vontade para contribuir com este projeto. Você pode abrir issues ou
 
 ## Licença
 
-Este projeto está licenciado sob os termos da licença MIT.
+Este projeto não está licenciado e foi produzido com o intuito de me ser útil.
