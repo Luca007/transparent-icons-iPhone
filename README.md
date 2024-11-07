@@ -27,7 +27,7 @@ Este projeto é um site que permite aos usuários criar ícones transparentes pe
 
 ## Contribuição
 
-Sinta-se à vontade para contribuir com este projeto. Você pode abrir issues ou enviar pull requests com melhorias e correções.
+Sinta-se à vontade para contribuir com este projeto. Você pode abrir issues ou enviar pull requests com melhorias e correções. Gostaria de prints de tela de outros modelos de iPhone para poder implementa-los ao site, portanto sinta-se a vontade de entrar em contato para disponibilizar os prints caso queira algum modelo em específico.
 
 ## Licença
 
